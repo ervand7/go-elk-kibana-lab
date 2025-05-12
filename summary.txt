@@ -1,0 +1,14 @@
+Elasticsearch (E) - A distributed search and analytics engine that
+stores and indexes log data.
+
+Logstash (L) - A data processing pipeline that collects, transforms,
+and forwards logs to Elasticsearch.
+
+Kibana (K) - A web UI for visualizing and querying data stored in Elasticsearch.
+
+
+Commands:
+hey -z 30s http://localhost:8080/hello
+
+Go app: http://localhost:8080
+Kibana: http://localhost:5601
